@@ -6,7 +6,7 @@ The Jupyter notebook presents the optimization of a real-world problem (Welded B
 These instructions will get you a copy of the notebook up and running on your local machine for testing purposes. 
 
 # Prerequisites
-1. Conda, for example, Miniconda: https://conda.io/miniconda.html
+Conda, for example, Miniconda: https://conda.io/miniconda.html
 
 Documentation: http://conda.pydata.org/docs
 
@@ -49,7 +49,7 @@ g++ -fPIC -shared EvaluationFunctions.cpp -o EvaluationFunctions.so
 ```
    
 # Running
-1. Execute command:
+Execute command:
 ```
 jupyter notebook --notebook-dir=.
 ```
@@ -63,7 +63,7 @@ conda env remove -n synergy-summer-school
 3. Remove Conda
 
 # Running on cloud without installing
-1. To run without installing, go to: https://mybinder.org/v2/gh/synergy-project/summer-school/master?filepath=SynergySummerSchool.ipynb
+To run without installing, go to: https://mybinder.org/v2/gh/synergy-project/summer-school/master?filepath=SynergySummerSchool.ipynb
 
 Note that this is a publicly available service whose resources are limited. Consequently, it becomes unavailable when requests exceed the available resources.
 Therefore, the link should be accessed a few times until the resources become available and the environment is set up.
