@@ -1,4 +1,4 @@
-### SYNERGY SUMMER SCHOOL ###
+# SYNERGY SUMMER SCHOOL 
 
 The Jupyter notebook presents the optimization of a real-world problem (Welded Beam Design) with a multiobjective optimization algorithm (NSGA2)
 
@@ -41,9 +41,7 @@ Linux:
    conda env remove -n synergy-summer-school
 3. Remove Conda
 
-#
-# Running (on cloud) without installing
-#
+# Running on cloud without installing
 1. To run without installing, go to:
    https://mybinder.org/v2/gh/synergy-project/summer-school/master?filepath=SynergySummerSchool.ipynb
 Note that this is a publicly available service whose resources are limited. Consequently, it becomes unavailable when requests exceed the available resources.
